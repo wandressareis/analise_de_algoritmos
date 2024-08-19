@@ -112,7 +112,5 @@ gcc -o mmap mmap.c
 ```sh
 ./mmap_example arq.txt
 ```
-Certifique-se de substituir `<input_file>` pelo caminho do arquivo que você deseja mapear na memória.
-
 ### Considerações Finais
 Este código é um exemplo básico para ilustrar o conceito de mapeamento de memória em ambientes Unix/Linux. Ele não cobre todas as possíveis verificações de erro e não lida com arquivos extremamente grandes que poderiam não caber na memória. Para produção, melhorias adicionais e manuseio adequado de erros seriam necessários.
