@@ -106,11 +106,11 @@ Finalmente, a memória mapeada é desmapeada usando munmap e o arquivo é fechad
 
 1. Compile o código usando o GCC:
 ```sh
-gcc -o mmap_example mmap_example.c
+gcc -o mmap mmap.c
 ```
 2. Execute o programa fornecendo o nome de um arquivo de entrada:
 ```sh
-./mmap_example <input_file>
+./mmap_example arq.txt
 ```
 Certifique-se de substituir `<input_file>` pelo caminho do arquivo que você deseja mapear na memória.
 
